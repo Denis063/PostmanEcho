@@ -24,6 +24,6 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("something", equalTo(data));
+                .body("data", equalTo(data));
     }
 }
